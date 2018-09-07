@@ -1,0 +1,194 @@
+body {
+    font-family: HelveticaNeue-Light, "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    background: url("http://kb4images.com/images/simple-wallpapers/36024494-simple-wallpapers.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: white;
+    background-repeat:no-repeat;
+    overflow:hidden;
+}
+
+/* Styles for AppComponent */
+
+.App {
+    text-align: center;
+}
+
+.App-header {
+    height: 100px;
+    width: 100%;
+    padding: 5px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: initial;
+}
+
+.App-title {
+    padding: 20px;
+    font-size: 2.5em;
+}
+
+/* Styles for Timers */
+
+.timer-div {
+    color: white;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 100%;
+    height: 400px;
+    width: 400px;
+    margin: 10px auto;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.timer-buttons button {
+        font-size: 16px;
+        border-color: transparent;
+        border-radius: 3px;
+        border-color: white;
+        margin: 3%;
+        background-color: rgba(0, 0, 0, 0.3);
+}
+
+.timer {
+    position: relative;
+    top: 25%;
+}
+
+
+.duration button {
+    background-color: rgba(0, 0, 0, 0.3);
+    font-size: 16px;
+    border-color: transparent;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+.duration input {
+    font-size: 20px;
+    margin: 0px 5px;
+    text-align: center;
+    width: 50px;
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    appearance: none;
+    -webkit-appearance: none;
+    margin: 0;
+}
+.duration sub {
+    color: red;
+    font-weight: bold;
+    padding-left: 5px;
+}
+
+/* Styles for ToDoList */
+
+input[type=text] {
+    padding: 5px;
+    border: 2px solid #ccc;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.btnAdd {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 10%;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.btnAdd:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+}
+
+.list-checkbox {
+    padding: 3px;
+    width: 25px;
+
+}
+
+.btnDelete {
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    border: none;
+    font-size: 10px;
+}
+
+.btnDelete:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+}
+
+.list-table{
+    display: table;
+    table-layout: fixed;
+    vertical-align: bottom;
+    width: 100%;
+    font-size: 20px;
+    text-align: left;
+}
+
+.list-table-div{
+    overflow-x: hidden;
+    overflow-y: auto;
+    width: 500px;
+    height: 500px;
+    margin-top: 10%;
+
+}
+td {
+    display: table-cell;
+    height: 20px;
+    padding: 3px;
+    
+}
+
+#td1 {
+    display: table-cell;
+    text-align: right;
+}
+
+#td2 {
+    display: table-cell;
+    word-wrap: break-word;
+}
+#td3 {
+    display: table-cell;
+    text-align: lefty;
+}
+
+/*Other styling options*/
+ol{
+    list-style: none;
+}
+
+/* styling the scrol bar */
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(94, 2, 2, 0.911);
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+
