@@ -6,8 +6,8 @@ body {
     -o-background-size: cover;
     background-size: cover;
     color: white;
-    background-repeat:no-repeat;
-    overflow:hidden;
+    background-repeat: no-repeat;
+    overflow: hidden;
 }
 
 /* Styles for AppComponent */
@@ -44,12 +44,12 @@ body {
 }
 
 .timer-buttons button {
-        font-size: 16px;
-        border-color: transparent;
-        border-radius: 3px;
-        border-color: white;
-        margin: 3%;
-        background-color: rgba(0, 0, 0, 0.3);
+    font-size: 16px;
+    border-color: transparent;
+    border-radius: 3px;
+    border-color: white;
+    margin: 3%;
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
 .timer {
@@ -82,6 +82,7 @@ input[type=number]::-webkit-outer-spin-button {
     -webkit-appearance: none;
     margin: 0;
 }
+
 .duration sub {
     color: red;
     font-weight: bold;
@@ -131,7 +132,7 @@ input[type=text] {
     color: white;
 }
 
-.list-table{
+.list-table {
     display: table;
     table-layout: fixed;
     vertical-align: bottom;
@@ -140,7 +141,7 @@ input[type=text] {
     text-align: left;
 }
 
-.list-table-div{
+.list-table-div {
     overflow-x: hidden;
     overflow-y: auto;
     width: 500px;
@@ -148,11 +149,12 @@ input[type=text] {
     margin-top: 10%;
 
 }
+
 td {
     display: table-cell;
     height: 20px;
     padding: 3px;
-    
+
 }
 
 #td1 {
@@ -164,13 +166,14 @@ td {
     display: table-cell;
     word-wrap: break-word;
 }
+
 #td3 {
     display: table-cell;
     text-align: lefty;
 }
 
 /*Other styling options*/
-ol{
+ol {
     list-style: none;
 }
 
@@ -187,8 +190,7 @@ ol{
 ::-webkit-scrollbar-thumb {
     background: rgba(94, 2, 2, 0.911);
 }
+
 ::-webkit-scrollbar-thumb:hover {
     background: #555;
 }
-
-
